@@ -1,4 +1,4 @@
-## 📨 Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/xflicks) 
+## 📨 Contact me on [![Instagram](https://telegra.ph/file/4fba1386002643cd58785.jpg)](https://t.me/xskull7) 
 
 <br>
 
@@ -12,7 +12,8 @@
 
 <p>
 
-    <b>Dimassrmdani</b><br>DarkSkull7
+    Dimassrmdani
+    DarkSkull7
 
 </p>
 
