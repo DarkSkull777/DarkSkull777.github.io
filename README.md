@@ -21,9 +21,9 @@
 
 
 
-    <a href="https://t.me/xskull7" target="blank"><img src="https://img.shields.io/badge/@xskull7-30302f?style=flat&logo=telegram" /></a>
 
-    <a href="https://instagram.com/DarkSkull777" target="blank"><img src="https://img.shields.io/badge/@DarkSkull777-30302f?style=flat&logo=instagram" /></a>
+[Instagram](https://telegra.ph/file/4fba1386002643cd58785.jpg?style=for-the-badge&logo=telegramhttps://instagram.com/dimassrmdani) 
+
 
 
 
