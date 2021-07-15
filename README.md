@@ -12,27 +12,19 @@
 
 <p>
 
-    <img src="https://img.shields.io/badge/OS-Linux-blue?&logo=Linux" />
-
-    <img src="https://img.shields.io/badge/OS-Windows-blue?&logo=Windows" />
-
-    <img src="https://img.shields.io/badge/IDE-Xcode-blue?&logo=xcode" />
-
-    <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
-
-    <img src="https://img.shields.io/badge/Sublime%20Text-gray?&logo=Sublime-Text" />
+    <b>Dimassrmdani</b><br>DarkSkull7
 
 </p>
 
 ### Let's connect!
 
-<p>
 
-    <a href="https://t.me/xlficks" target="blank"><img src="https://img.shields.io/badge/@xskull7-30302f?style=flat&logo=telegram" /></a>
+
+    <a href="https://t.me/xskull7" target="blank"><img src="https://img.shields.io/badge/@xskull7-30302f?style=flat&logo=telegram" /></a>
 
     <a href="https://instagram.com/DarkSkull777" target="blank"><img src="https://img.shields.io/badge/@DarkSkull777-30302f?style=flat&logo=instagram" /></a>
 
-</p>
+
 
 <details>
 
