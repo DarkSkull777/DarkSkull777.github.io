@@ -1,4 +1,8 @@
-<img src"https://telegra.ph/file/4fba1386002643cd58785.jpg"
+
+<p align="center">
+  <img src="https://telegra.ph/file/4fba1386002643cd58785.jpg">
+</p>
+
 ## 📨 Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegramhttps://t.me/xskull7) 
 
 <br>
