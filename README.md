@@ -30,7 +30,7 @@
 
 ## ⚙️ SESSION STRING
 Klik tombol dibawah untuk mengambil Pyrogram dan Telethon String
-<p align="center"><a href="https://replit.com/@DarkSkull777/GenerateStringSession"><img src="https://img.shields.io/badge/DAPATKAN-STRING-blue?style=plastic&logo=replit&logoColor=yellow"width="230" height="20" /></a></p>
+<p align="center"><a href="https://replit.com/@DarkSkull777/GenerateStringSession"><img src="https://img.shields.io/badge/DAPATKAN-STRING-blue?style=plastic&logo=replit&logoColor=yellow"width="290" height="30" /></a></p>
 
 <details>
     <summary>&#127942 <b>Penghargaan Github</b></summary><br/>
