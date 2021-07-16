@@ -27,7 +27,7 @@
 
 
 
-[![Instagram](https://telegra.ph/file/a514fb92b73a23ed60e9c.jpg?style=for-the-badge&logo=instagram)](https://instagram.com/dimassrmdani) 
+[![Instagram](https://telegra.ph/file/752e7b2577fa852ad6cc9.jpg?style=for-the-badge&logo=instagram)](https://instagram.com/dimassrmdani) 
 
 
 
