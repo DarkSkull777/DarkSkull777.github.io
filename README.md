@@ -7,7 +7,7 @@
 
 <br>
 
-## 👁‍🗨 DILIHAT ![DILIHAT](https://komarev.com/ghpvc/?username=DarkSkull777&color=blue&style=flat-square&label=HEWAN
+## 👁‍🗨 DILIHAT ![DILIHAT](https://komarev.com/ghpvc/?username=DarkSkull777&color=blue&style=flat-square&label=HEWAN)
 
 ### Stats:
 
