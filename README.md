@@ -28,6 +28,10 @@
 
 ![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
 
+## ⚙️ SESSION STRING
+Klik tombol dibawah untuk mengambil Pyrogram dan Telethon String
+<p align="center"><a href="https://replit.com/@DarkSkull777/GenerateStringSession"><img src="https://img.shields.io/badge/DAPATKAN-STRING-blue?style=plastic&logo=replit&logoColor=yellow"width="230" height="20" /></a></p>
+
 <details>
     <summary>&#127942 <b>Penghargaan Github</b></summary><br/>
 
