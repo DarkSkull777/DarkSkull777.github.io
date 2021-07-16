@@ -35,11 +35,4 @@
 
 </details>
 
-<details>
-    <summary>&#127942 <b>Aktivitas GitHub</b></summary><br/>
-
-![Metrics](https://metrics.lecoq.io/mrismanaziz?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
-
-</details>
-
 <p><b><i><t>©darkskull7</p>
