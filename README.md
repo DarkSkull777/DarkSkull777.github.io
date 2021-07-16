@@ -22,12 +22,12 @@
 
 </p>
 
-### Instagram me
+### Follow me
 
 
 
 
-[![Instagram](https://telegra.ph/file/4fba1386002643cd58785.jpg?style=for-the-badge&logo=telegram)](https://instagram.com/dimassrmdani) 
+[![Instagram](https://telegra.ph/file/a514fb92b73a23ed60e9c.jpg?style=for-the-badge&logo=instagram)](https://instagram.com/dimassrmdani) 
 
 
 
