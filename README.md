@@ -3,7 +3,13 @@
   <img src="https://telegra.ph/file/a6b595b7433acd8519176.jpg">
 </p>
 
-## 📨 Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegramhttps://t.me/xskull7) 
+## 📨 Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegramhttps://t.me/xskull7)
+<p>
+    <a href="http://darkskull7.my.to" target="blank"><img src="https://img.icons8.com/nolan/80/domain.png" /></a>
+    <a href="https://facebook.com/dimas.as8" target="blank"><img src="https://img.icons8.com/nolan/80/facebook-new.png" /></a>
+    <a href="https://instagram.com/dimassrmdani" target="blank"><img src="https://img.icons8.com/nolan/80/instagram-new.png" /></a>
+   
+</p>
 
 <br>
 
@@ -17,11 +23,4 @@
 
 
 ![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
-### My Social Media and Personal Website
-<p>
-    <a href="http://darkskull7.my.to" target="blank"><img src="https://img.icons8.com/nolan/80/domain.png" /></a>
-    <a href="https://facebook.com/dimas.as8" target="blank"><img src="https://img.icons8.com/nolan/80/facebook-new.png" /></a>
-    <a href="https://instagram.com/dimassrmdani" target="blank"><img src="https://img.icons8.com/nolan/80/instagram-new.png" /></a>
-   
-</p>
-<p><b><i>©darkskull7</p>
+<p><b><i><t>©darkskull7</p>
