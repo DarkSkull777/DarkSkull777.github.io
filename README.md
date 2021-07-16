@@ -17,4 +17,4 @@
 
 
 ![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
-<p><b>©darkskull7</p>
+<p><b><i>©darkskull7</p>
