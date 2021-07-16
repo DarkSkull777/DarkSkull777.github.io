@@ -39,4 +39,4 @@ Klik tombol dibawah untuk mengambil Pyrogram dan Telethon String
 
 </details>
 
-<p><b><i><t>©darkskull7</p>
+<p><b><i><t>klik diatas untuk melihat penghargaan saya</p>
