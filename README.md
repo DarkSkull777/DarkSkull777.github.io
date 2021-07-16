@@ -11,6 +11,14 @@
    
 </p>
 
+<p>
+    <img src="https://img.shields.io/badge/OS-Linux-blue?&logo=Linux" />
+    <img src="https://img.shields.io/badge/OS-Windows-blue?&logo=Windows" />
+    <img src="https://img.shields.io/badge/IDE-Xcode-blue?&logo=xcode" />
+    <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
+    <img src="https://img.shields.io/badge/Sublime%20Text-gray?&logo=Sublime-Text" />
+</p>
+
 <br>
 
 ## 👁‍🗨 DILIHAT ![DILIHAT](https://komarev.com/ghpvc/?username=DarkSkull777&color=blue&style=flat-square&label=Manusia)
