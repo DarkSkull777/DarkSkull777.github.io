@@ -15,41 +15,8 @@
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull777&theme=radical&layout=compact"></a></p> 
 
-<p>
-
-    Dimassrmdani
-    DarkSkull7
-
-</p>
-
-### Follow me
-
-
-
-
-[![Instagram](https://telegra.ph/file/752e7b2577fa852ad6cc9.jpg?style=for-the-badge&logo=instagram)](https://instagram.com/dimassrmdani) 
-
-
-
-
-<details>
-
-    <summary>&#127942 <b>GitHub Awards</b></summary><br/>
-
-
-## 📨 Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/xflicks) 
-
-<br>
-
-![Profile views](https://komarev.com/ghpvc/?username=ferikunn&color=blue&style=flat-square&label=Profile+Views)
-
-### Stats:
-
-<p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api?username=ferikunn&show_icons=true&theme=radical"></a></p>
-
-<p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull7&theme=radical&layout=compact"></a></p> 
-
-
-
 
 ![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
+
+
+<p>©darkskull7</p>
