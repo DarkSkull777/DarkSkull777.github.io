@@ -21,12 +21,14 @@
 </p>
 
 ## 📌Statistik & Informasi
+![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
+
+
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api?username=DarkSkull777&show_icons=true&theme=radical"></a></p>
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull777&theme=radical&layout=compact"></a></p> 
 
 
-![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
 
 ## ⚙️ SESSION STRING
 Klik tombol dibawah untuk mengambil Pyrogram dan Telethon String
