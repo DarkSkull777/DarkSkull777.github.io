@@ -47,7 +47,7 @@
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api?username=ferikunn&show_icons=true&theme=radical"></a></p>
 
-<p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ferikunn&theme=radical&layout=compact"></a></p> 
+<p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull7&theme=radical&layout=compact"></a></p> 
 
 
 
