@@ -27,7 +27,7 @@
 
 
 
-[Instagram](https://telegra.ph/file/4fba1386002643cd58785.jpg?style=for-the-badge&logo=telegramhttps://instagram.com/dimassrmdani) 
+[![Instagram](https://telegra.ph/file/4fba1386002643cd58785.jpg?style=for-the-badge&logo=telegram)](https://instagram.com/dimassrmdani) 
 
 
 
@@ -48,6 +48,7 @@
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api?username=ferikunn&show_icons=true&theme=radical"></a></p>
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull7&theme=radical&layout=compact"></a></p> 
+
 
 
 
