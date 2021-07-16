@@ -19,9 +19,7 @@
     <img src="https://img.shields.io/badge/Sublime%20Text-gray?&logo=Sublime-Text" />
     <img src="https://komarev.com/ghpvc/?username=DarkSkull777&color=blue&style=flat-square&label=Manusia" />
 </p>
-<br>
-
-### Stats:
+### Statistik & Informasi
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api?username=DarkSkull777&show_icons=true&theme=radical"></a></p>
 
