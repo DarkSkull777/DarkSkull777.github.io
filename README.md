@@ -67,9 +67,9 @@
 
 <p>
 
-    <a href="https://t.me/xsku7" target="blank"><img src="https://img.shields.io/badge/@xskull7-30302f?style=flat&logo=telegram" /></a>
+    <a href="https://t.me/xskull7" target="blank"><img src="https://img.shields.io/badge/@xskull7-30302f?style=flat&logo=telegram" /></a>
 
-    <a href="https://instagram.com/dimassrmdani" target="blank"><img src="https://img.shields.io/badge/@xflicks-30302f?style=flat&logo=instagram" /></a>
+    <a href="https://instagram.com/dimassrmdani" target="blank"><img src="https://img.shields.io/badge/@dimassrmdani-30302f?style=flat&logo=instagram" /></a>
 
 </p>
 
@@ -85,7 +85,7 @@
 
     <summary>&#127942 <b>GitHub Activity</b></summary><br/>
 
-![Metrics](https://metrics.lecoq.io/ferikunn?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
+![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
 
 </details>
 ![Github Trophy](https://github-profile-trophy.vercel.app/?username=phaticusthiccy)
