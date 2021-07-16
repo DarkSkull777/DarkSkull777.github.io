@@ -27,4 +27,19 @@
 
 
 ![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
+
+<details>
+    <summary>&#127942 <b>Penghargaan Github</b></summary><br/>
+
+![Github Trophy](https://github-profile-trophy.vercel.app/?username=phaticusthiccy)
+
+</details>
+
+<details>
+    <summary>&#127942 <b>Aktivitas GitHub</b></summary><br/>
+
+![Metrics](https://metrics.lecoq.io/mrismanaziz?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
+
+</details>
+
 <p><b><i><t>©darkskull7</p>
