@@ -3,7 +3,7 @@
   <img src="https://telegra.ph/file/a6b595b7433acd8519176.jpg">
 </p>
 
-## 📨 Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegramhttps://t.me/xskull7)
+## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegramhttps://t.me/xskull7)
 <p>
     <a href="http://darkskull7.my.to" target="blank"><img src="https://img.icons8.com/nolan/80/domain.png" /></a>
     <a href="https://facebook.com/dimas.as8" target="blank"><img src="https://img.icons8.com/nolan/80/facebook-new.png" /></a>
@@ -39,3 +39,5 @@ Klik tombol dibawah untuk mengambil Pyrogram dan Telethon String
 </details>
 
 <p><b><i><t>klik diatas untuk melihat penghargaan saya</p>
+
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600" />
