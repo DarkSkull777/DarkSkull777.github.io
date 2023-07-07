@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://a.top4top.io/p_2700lnree0.jpg">
+  <img src="https://telegra.ph/file/866ac8f5646d1e641352c.jpg">
 </p>
 
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegramhttps://t.me/xskull7)
