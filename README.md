@@ -30,11 +30,6 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22F700&width=435&lines=On+journey+to+become+a+great+Hacker" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22F700&width=435&lines=I+hope+that+after+I+successfully+log+in+to+your+heart,+my+sessions+will+never+expired." alt="Typing SVG" />
   </a>
 </div>
-<!--
-<h3 align="center">On a Journey to become a great human being...<p align="right"></h3> -->
-
-
-<img width="28%" align='right' src="https://github.com/user-attachments/assets/466fee29-c3cf-4aa3-8807-6d0daaa4e6cf">
