@@ -3,9 +3,7 @@
   <img src="https://telegra.ph/file/866ac8f5646d1e641352c.jpg">
 </p>
 
-<a href="https://t.me/skull7">
-    <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px" alt="Hi">
-</a>
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Contact me on [![Telegram](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/xskull7)
 
 <p>
     <a href="https://darkskull7.blogspot.com" target="blank"><img src="https://img.icons8.com/nolan/80/domain.png" /></a>
