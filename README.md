@@ -26,11 +26,11 @@
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull777&theme=radical&layout=compact"></a></p> 
 
-![Rain](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXg1czRwNWF5dmx0cDlrNmU3dGdtem1iYmE2dTF3aG5kYXc5M204NSZlcDByFzdUT7Akp4suGo2ec1ar2Z2chdvnzARQZw/tkMeNtj9FQYx2/giphy.webp)
+<p align="center"><a href="https://github.com/DarkSkull777"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXg1czRwNWF5dmx0cDlrNmU3dGdtem1iYmE2dTF3aG5kYXc5M204NSZlcDByFzdUT7Akp4suGo2ec1ar2Z2chdvnzARQZw/tkMeNtj9FQYx2/giphy.webp"></a></p>
 
 <details>
     <summary>&#127942 <b>Trophy</b></summary><br/>
 
-![Github Trophy](https://github-profile-trophy.vercel.app/?username=phaticusthiccy)
+<p align="center"> ![Github Trophy](https://github-profile-trophy.vercel.app/?username=phaticusthiccy)
 
 </details>
