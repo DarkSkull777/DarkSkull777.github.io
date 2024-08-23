@@ -28,9 +28,7 @@
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXg1czRwNWF5dmx0cDlrNmU3dGdtem1iYmE2dTF3aG5kYXc5M204NSZlcDByFzdUT7Akp4suGo2ec1ar2Z2chdvnzARQZw/tkMeNtj9FQYx2/giphy.webp"></a></p>
 
-<details>
-    <summary>&#127942 <b>Trophy</b></summary><br/>
-
-<p align="center"> ![Github Trophy](https://github-profile-trophy.vercel.app/?username=phaticusthiccy)
-
-</details>
+<h2 align="center">
+  Hi there
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>
+</h2>
