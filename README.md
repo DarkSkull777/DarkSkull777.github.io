@@ -26,7 +26,7 @@
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull777&theme=radical&layout=compact"></a></p> 
 
-![Dino](https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif)
+![Rain](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXg1czRwNWF5dmx0cDlrNmU3dGdtem1iYmE2dTF3aG5kYXc5M204NSZlcDByFzdUT7Akp4suGo2ec1ar2Z2chdvnzARQZw/tkMeNtj9FQYx2/giphy.webp)
 
 <details>
     <summary>&#127942 <b>Trophy</b></summary><br/>
