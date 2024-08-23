@@ -28,7 +28,13 @@
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXg1czRwNWF5dmx0cDlrNmU3dGdtem1iYmE2dTF3aG5kYXc5M204NSZlcDByFzdUT7Akp4suGo2ec1ar2Z2chdvnzARQZw/tkMeNtj9FQYx2/giphy.webp"></a></p>
 
-<h2 align="center">
-  Hi there
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>
-</h2>
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22F700&width=435&lines=On+journey+to+become+a+great+Hacker" alt="Typing SVG" />
+  </a>
+</div>
+<!--
+<h3 align="center">On a Journey to become a great human being...<p align="right"></h3> -->
+
+
+<img width="28%" align='right' src="https://github.com/user-attachments/assets/466fee29-c3cf-4aa3-8807-6d0daaa4e6cf">
