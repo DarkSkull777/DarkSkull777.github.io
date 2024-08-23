@@ -26,7 +26,7 @@
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull777&theme=radical&layout=compact"></a></p> 
 
-<img src="[https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif](https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif)" alt="Dino Game" width="550">
+![Dino](https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif)
 
 <details>
     <summary>&#127942 <b>Trophy</b></summary><br/>
