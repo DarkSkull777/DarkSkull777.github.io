@@ -26,13 +26,11 @@
 
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkSkull777&theme=radical&layout=compact"></a></p> 
 
-![Metrics](https://metrics.lecoq.io/DarkSkull777?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
+<img src="[https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif](https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif)" alt="Dino Game" width="550">
 
 <details>
-    <summary>&#127942 <b>Penghargaan Github</b></summary><br/>
+    <summary>&#127942 <b>Trophy</b></summary><br/>
 
 ![Github Trophy](https://github-profile-trophy.vercel.app/?username=phaticusthiccy)
 
 </details>
-
-<img src="[https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif](https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif)" alt="Dino Game" width="550" />
