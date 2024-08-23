@@ -29,7 +29,5 @@
 <p align="center"><a href="https://github.com/DarkSkull777"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXg1czRwNWF5dmx0cDlrNmU3dGdtem1iYmE2dTF3aG5kYXc5M204NSZlcDByFzdUT7Akp4suGo2ec1ar2Z2chdvnzARQZw/tkMeNtj9FQYx2/giphy.webp"></a></p>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22F700&width=800&lines=I+hope+that+after+I+successfully+log+in+to+your+heart,+my+sessions+will+never+expired." alt="Typing SVG" />
-  </a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&duration=8000&pause=900&color=13F755&random=true&width=435&lines=From+Vulnerability+to+Victories+bro+man" alt="Typing SVG" /></a>
 </div>
