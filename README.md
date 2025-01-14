@@ -3,7 +3,7 @@
 A simple and clean tool to help you analyze key data before jumping into futures trading.  
 It's straightforward, easy to use, and built for traders who value efficiency.
 
-👉 **[Try it out here!](https://darkskull777.github.io/analytics-futures)**  
+👉 **[Try it out here!](https://darkskull777.github.io)**  
 
 ---
 
