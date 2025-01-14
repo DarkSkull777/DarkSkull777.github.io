@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive analytics and insights for futures trading. Stay ahead with real-time data, trends, and expert analysis.">
+    <meta name="author" content="Dymles Ganz">
+    <meta name="keywords" content="futures trade, analytics, trading futures, leverage ideal">
+    <link rel="icon" href="btc.ico" type="image/x-icon">
+    <meta property="og:title" content="Analytics for Futures Trade">
+    <meta property="og:description" content="Get real-time insights and trends for futures trading.">
+    <meta property="og:image" content="https://github.com/DarkSkull777/analytics-futures/blob/main/trading.jpg">
+    <meta property="og:url" content="https://darkskull777.github.io/analytics-futures">
+    <meta property="og:type" content="website">
+    <title>Analytics for Futures Trade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        
+        .mode-selector {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .mode-btn {
+            padding: 10px 20px;
+            background-color: #333;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .mode-btn.active {
+            background-color: #666;
+        }
+      
+        .loss {
+            color: #f44336;
+        }
+      
+        .calculator {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #272727;
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+        }
+        
+        .position-type {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .radio-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+        
+        .long-label { color: #4CAF50; }
+        .short-label { color: #f44336; }
+        
+        .input-group {
+            margin-bottom: 15px;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 8px;
+            background-color: #333;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 4px;
+        }
+        
+        .start-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        .start-btn:hover {
+            background-color: #45a049;
+        }
+        
+        .results {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #333;
+            border-radius: 4px;
+            display: none;
+        }
+        
+        .results div {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Analytics Before Trading Futures.</div>
+    
+    <div class="mode-selector">
+        <button class="mode-btn" onclick="switchMode('futures')">Futures</button>
+        <button class="mode-btn" onclick="switchMode('leverage')">Leverage</button>
+    </div>
+    
+    <div id="futures-calc" class="calculator">
+        <div class="position-type">
+            <label class="radio-label long-label">
+                <input type="radio" name="position-type" value="long" checked>
+                LONG
+            </label>
+            <label class="radio-label short-label">
+                <input type="radio" name="position-type" value="short">
+                SHORT
+            </label>
+        </div>
+        
+        <div class="input-group">
+            <label>Balance/Saldo Margin (USDT)</label>
+            <input type="number" id="futures-balance" step="any" required>
+        </div>
+        
+        <div class="input-group">
+            <label>Entry Price</label>
+            <input type="number" id="futures-entry" step="any" required>
+        </div>
+
+        <div class="input-group">
+            <label>Leverage</label>
+            <input type="number" id="futures-leverage" max="125" step="any" required>
+        </div>
+
+        <div class="input-group">
+            <label>Take Profit</label>
+            <input type="number" id="futures-target" step="any" required>
+        </div>
+
+        <div class="input-group">
+            <label>Stop Loss</label>
+            <input type="number" id="futures-sl" step="any" required>
+        </div>
+        
+        <button class="start-btn" onclick="calculateFutures()">Start</button>
+        
+        <div id="futures-results" class="results"></div>
+    </div>
+    
+    <!-- Leverage Calculator -->
+    <div id="leverage-calc" class="calculator">
+        <div class="position-type">
+            <label class="radio-label long-label">
+                <input type="radio" name="leverage-position-type" value="long" checked>
+                LONG
+            </label>
+            <label class="radio-label short-label">
+                <input type="radio" name="leverage-position-type" value="short">
+                SHORT
+            </label>
+        </div>
+        
+        <div class="input-group">
+            <label>Balance/Saldo Margin (USDT)</label>
+            <input type="number" id="leverage-balance" step="any" required>
+        </div>
+        
+        <div class="input-group">
+            <label>Entry Price</label>
+            <input type="number" id="leverage-entry" step="any" required>
+        </div>
+        
+        <div class="input-group">
+            <label>Liquidation Price</label>
+            <input type="number" id="leverage-liquidation" step="any" required>
+        </div>
+        
+        <button class="start-btn" onclick="calculateLeverage()">Start</button>
+        
+        <div id="leverage-results" class="results"></div>
+    </div>
+
+    <script>
+        const MAINTENANCE_MARGIN = 0.005;
+        const FEE_RATE = 0.0004;
+        
+        function switchMode(mode) {
+            document.querySelectorAll('.calculator').forEach(calc => calc.style.display = 'none');
+            document.getElementById(`${mode}-calc`).style.display = 'block';
+            document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+        
+        function formatPrice(price) {
+            return price >= 1 ? price.toFixed(2) : price.toFixed(8);
+        }
+        
+function calculateFutures() {
+    const positionType = document.querySelector('input[name="position-type"]:checked').value;
+    const balance = parseFloat(document.getElementById('futures-balance').value);
+    const entryPrice = parseFloat(document.getElementById('futures-entry').value);
+    const stopLoss = parseFloat(document.getElementById('futures-sl').value);
+    const leverage = parseFloat(document.getElementById('futures-leverage').value);
+    const targetPrice = parseFloat(document.getElementById('futures-target').value);
+    
+    if (isNaN(balance) || isNaN(entryPrice) || isNaN(stopLoss) || isNaN(leverage) || isNaN(targetPrice)) {
+        alert('Please fill in all fields with valid numbers');
+        return;
+    }
+    
+    const positionSize = balance * leverage;
+    const contracts = positionSize / entryPrice;
+    
+    const threshold = (1 / leverage) - MAINTENANCE_MARGIN;
+    const liquidationPrice = positionType === 'long' 
+        ? entryPrice * (1 - threshold)
+        : entryPrice * (1 + threshold);
+
+    // Calculate target profit
+    let priceChange;
+    if (positionType === 'long') {
+        priceChange = (targetPrice - entryPrice) / entryPrice;
+    } else {
+        priceChange = (entryPrice - targetPrice) / entryPrice;
+    }
+
+    const grossProfit = positionSize * priceChange;
+    const fees = positionSize * FEE_RATE * 2;
+    const profit = grossProfit - fees;
+    const totalBalance = balance + profit;
+    
+    // Calculate stop loss
+    let slPriceChange;
+    if (positionType === 'long') {
+        slPriceChange = (stopLoss - entryPrice) / entryPrice;
+    } else {
+        slPriceChange = (entryPrice - stopLoss) / entryPrice;
+    }
+
+    const slGrossLoss = positionSize * Math.abs(slPriceChange);
+    const slFees = positionSize * FEE_RATE * 2;
+    const totalLoss = slGrossLoss + slFees;
+    const balanceAfterSL = balance - totalLoss;
+    
+    const priceToLiqPercent = ((liquidationPrice - entryPrice) / entryPrice) * 100;
+    const priceToTargetPercent = positionType === 'long'
+        ? ((targetPrice - entryPrice) / entryPrice) * 100
+        : ((entryPrice - targetPrice) / entryPrice) * 100;
+    const priceToSLPercent = positionType === 'long'
+        ? ((stopLoss - entryPrice) / entryPrice) * 100
+        : ((entryPrice - stopLoss) / entryPrice) * 100;
+    
+    const results = document.getElementById('futures-results');
+    results.innerHTML = `
+        <div>Position Type: ${positionType.toUpperCase()}</div>
+        <div>Initial Margin: ${formatPrice(balance)} USDT</div>
+        <div>Position Size: ${formatPrice(positionSize)} USDT</div>
+        <div>Contracts Size: ${formatPrice(contracts)}<br></div>
+        <div>Entry Price: ${formatPrice(entryPrice)}</div>
+        <div>Liquidation Price: ${formatPrice(liquidationPrice)}</div>
+        <div>Distance to Liquidation: ${Math.abs(priceToLiqPercent).toFixed(2)}%</div>
+        <br>
+        <div>Stop Loss Price: ${formatPrice(stopLoss)}</div>
+        <div>Loss at Stop Loss: -${formatPrice(totalLoss)} USDT</div>
+        <div>Balance After Stop Loss: ${formatPrice(balanceAfterSL)} USDT</div>
+        <div>Loss Percentage: -${((totalLoss / balance) * 100).toFixed(2)}%</div>
+        <div>Price Movement to Stop Loss: ${Math.abs(priceToSLPercent).toFixed(2)}%<br></div>
+        <br>
+        <div>Take Profit: ${formatPrice(targetPrice)}</div>
+        <div>Profit at Target: ${formatPrice(profit)} USDT</div>
+        <div>Total Balance After Target: ${formatPrice(totalBalance)} USDT</div>
+        <div>Return on Investment: ${((profit / balance) * 100).toFixed(2)}%</div>
+        <div>Price Movement to Target: ${priceToTargetPercent.toFixed(2)}%</div>
+    `;
+    results.style.display = 'block';
+}
+        
+        function calculateLeverage() {
+            const positionType = document.querySelector('input[name="leverage-position-type"]:checked').value;
+            const balance = parseFloat(document.getElementById('leverage-balance').value);
+            const entryPrice = parseFloat(document.getElementById('leverage-entry').value);
+            const liquidationPrice = parseFloat(document.getElementById('leverage-liquidation').value);
+            
+            if (isNaN(balance) || isNaN(entryPrice) || isNaN(liquidationPrice)) {
+                alert('Please fill in all fields with valid numbers');
+                return;
+            }
+            
+            let threshold;
+            if (positionType === 'long') {
+                threshold = (entryPrice - liquidationPrice) / entryPrice;
+            } else {
+                threshold = (liquidationPrice - entryPrice) / entryPrice;
+            }
+            
+            const leverage = 1 / (threshold + MAINTENANCE_MARGIN);
+            const positionSize = balance * leverage;
+            
+            const results = document.getElementById('leverage-results');
+            results.innerHTML = `
+                <div>Position Type: ${positionType.toUpperCase()}</div>
+                <div>Balance/Saldo Margin: ${formatPrice(balance)} USDT</div>
+                <div>Entry Price: ${formatPrice(entryPrice)}</div>
+                <div>Liquidation Price: ${formatPrice(liquidationPrice)}</div>
+                <div>Maintenance Margin: ${MAINTENANCE_MARGIN.toFixed(4)}</div>
+                <div>Required Leverage: ${leverage.toFixed(2)}x</div>
+                <div>Position Size: ${formatPrice(positionSize)} USDT</div>
+            `;
+            results.style.display = 'block';
+        }
+        
+        document.getElementById('futures-balance').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculateFutures();
+            }
+        });
+
+        document.getElementById('futures-entry').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculateFutures();
+            }
+        });
+        
+        document.getElementById('futures-target').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculateFutures();
+            }
+        });
+
+        document.getElementById('futures-leverage').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculateFutures();
+            }
+        });
+
+        document.getElementById('futures-sl').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculateFutures();
+            }
+        });
+
+        document.getElementById('leverage-liquidation').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                calculateLeverage();
+            }
+        });
+        
+        switchMode('futures');
+    </script>
+</body>
+              </html>
