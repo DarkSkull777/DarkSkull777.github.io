@@ -21,11 +21,16 @@
             color: #e0e0e0;
             font-family: 'Courier New', monospace;
         }
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 150px;
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 10px;
+        }
+        .logo-container img {
+            width: 150px;  /* Medium size */
+            height: 150px; /* Maintain aspect ratio */
+            object-fit: contain;
         }
         .title-container {
             display: flex;
@@ -146,8 +151,11 @@
         }
     </style>
 </head>
+<div class="logo-container">
+        <img src="log.ico" alt="DarkSkull7 Logo" class="logo">
+</div>
+<main class="post-container">
 <body class="bg-gray-900">
-<img src="log.ico" alt="Logo" class="center-image">
     <div class="title-container">
         <h1 class="title">
             <span class="title-red">{</span>
