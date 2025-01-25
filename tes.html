@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkSkull7 Sites</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Courier New', monospace;
+        }
+        .post-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            background-color: #1e1e1e;
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .post::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0,255,0,0.3) 0%, transparent 70%);
+            animation: glow 3s infinite alternate;
+            z-index: -1;
+        }
+        @keyframes glow {
+            0% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+            100% {
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
+        }
+        .post:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 20px rgba(0,255,0,0.5);
+        }
+        .post h2 a {
+            color: #00ff00;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .post h2 a:hover {
+            color: #00ff00;
+            text-shadow: 0 0 10px rgba(0,255,0,0.7);
+        }
+        .social-icons a {
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+        /* Responsif untuk mobile */
+        @media (max-width: 640px) {
+            .post-container {
+                padding: 10px;
+            }
+            .post {
+                padding: 15px;
+            }
+            .social-icons {
+                display: flex;
+                justify-content: center;
+            }
+            .social-icons a {
+                margin: 0 5px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-900">
+    <header class="text-center py-6 bg-opacity-50 bg-green-900">
+        <h1 class="text-4xl font-bold text-green-400">DarkSkull7 Sites</h1>
+    </header>
+
+    <main class="post-container">
+        <div class="post">
+            <h2 class="text-2xl mb-3">
+                <a href="https://example.com/post1">Proyek Pertama</a>
+            </h2>
+            <p class="text-gray-300">Pengenalan mendalam tentang proyek pertama kami yang inovatif dan menarik.</p>
+        </div>
+
+        <div class="post">
+            <h2 class="text-2xl mb-3">
+                <a href="https://example.com/post2">Teknologi Terbaru</a>
+            </h2>
+            <p class="text-gray-300">Eksplorasi mendalam tentang perkembangan teknologi mutakhir yang mengubah dunia.</p>
+        </div>
+
+        <div class="post">
+            <h2 class="text-2xl mb-3">
+                <a href="https://example.com/post3">Inovasi Digital</a>
+            </h2>
+            <p class="text-gray-300">Cerita inspiratif tentang transformasi digital dan potensi teknologi masa depan.</p>
+        </div>
+
+        <div class="post">
+            <h2 class="text-2xl mb-3">
+                <a href="https://example.com/post4">Perjalanan Kreativitas</a>
+            </h2>
+            <p class="text-gray-300">Berbagi pengalaman dan wawasan tentang proses kreatif dalam pengembangan produk.</p>
+        </div>
+    </main>
+
+    <footer class="text-center py-6 bg-opacity-50 bg-green-900">
+        <div class="social-icons flex justify-center space-x-4">
+            <a href="https://facebook.com/yourprofile" class="inline-block">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/facebook.svg" alt="Facebook" class="w-8 h-8 text-green-400">
+            </a>
+            <a href="https://twitter.com/yourprofile" class="inline-block">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/twitter.svg" alt="Twitter" class="w-8 h-8 text-green-400">
+            </a>
+            <a href="https://instagram.com/yourprofile" class="inline-block">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/instagram.svg" alt="Instagram" class="w-8 h-8 text-green-400">
+            </a>
+            <a href="https://github.com/yourprofile" class="inline-block">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/github.svg" alt="GitHub" class="w-8 h-8 text-green-400">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
