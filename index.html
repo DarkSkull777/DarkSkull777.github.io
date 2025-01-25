@@ -21,18 +21,32 @@
             color: #e0e0e0;
             font-family: 'Courier New', monospace;
         }
-        .title-container {
-            text-align: center;
-            padding: 30px 0;
-        }
+
+    .title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 20px 10px;
+    }
+    
+    .title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 2.5rem; /* Slightly reduced for mobile */
+        white-space: nowrap; /* Prevent line breaking */
+        display: flex;
+        align-items: center;
+    }
+    
+    @media (max-width: 480px) {
         .title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 3.5rem;
-            display: inline-block;
+            font-size: 1.8rem; /* Further reduce for very small screens */
         }
+        
         .title-red {
-            color: #ff0000;
+            margin: 0 5px;
         }
+
         .title-white {
             color: #ffffff;
         }
