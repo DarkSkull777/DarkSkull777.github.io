@@ -3,13 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DarkSkull7 Sites</title>
+    <title>DarkSkull7 Home</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
         body {
             background-color: #121212;
             color: #e0e0e0;
             font-family: 'Courier New', monospace;
+        }
+        .title-container {
+            text-align: center;
+            padding: 30px 0;
+        }
+        .title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3.5rem;
+            display: inline-block;
+        }
+        .title-red {
+            color: #ff0000;
+        }
+        .title-white {
+            color: #ffffff;
+        }
+        #typing-text {
+            text-align: center;
+            color: #00ff00;
+            font-size: 1.2rem;
+            margin-top: 20px;
         }
         .post-container {
             max-width: 800px;
@@ -67,7 +89,6 @@
         .social-icons a:hover {
             transform: scale(1.2);
         }
-        /* Responsif untuk mobile */
         @media (max-width: 640px) {
             .post-container {
                 padding: 10px;
@@ -86,9 +107,14 @@
     </style>
 </head>
 <body class="bg-gray-900">
-    <header class="text-center py-6 bg-opacity-50 bg-green-900">
-        <h1 class="text-4xl font-bold text-green-400">DarkSkull7 Sites</h1>
-    </header>
+    <div class="title-container">
+        <h1 class="title">
+            <span class="title-red">{</span>
+            <span class="title-white">DarkSkull7 Home</span>
+            <span class="title-red">}</span>
+        </h1>
+        <div id="typing-text"></div>
+    </div>
 
     <main class="post-container">
         <div class="post">
@@ -136,5 +162,45 @@
             </a>
         </div>
     </footer>
+
+    <script>
+        const texts = [
+            "Hi all welcome to home this is all about me...",
+            "Explore my world of creativity and technology..."
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingText = document.getElementById('typing-text');
+
+        function typeText() {
+            const currentText = texts[textIndex];
+            
+            if (!isDeleting) {
+                typingText.textContent = currentText.slice(0, charIndex + 1);
+                charIndex++;
+
+                if (charIndex === currentText.length) {
+                    isDeleting = true;
+                    setTimeout(typeText, 2000);
+                } else {
+                    setTimeout(typeText, 100);
+                }
+            } else {
+                typingText.textContent = currentText.slice(0, charIndex);
+                charIndex--;
+
+                if (charIndex === 0) {
+                    isDeleting = false;
+                    textIndex = (textIndex + 1) % texts.length;
+                    setTimeout(typeText, 500);
+                } else {
+                    setTimeout(typeText, 50);
+                }
+            }
+        }
+
+        typeText();
+    </script>
 </body>
 </html>
